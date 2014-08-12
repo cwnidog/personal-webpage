@@ -1,0 +1,68 @@
+/* set th ebackground image and default text color */
+body {
+  background-image: url("sky.jpg");
+  color: #003300;
+}
+
+/* the heading at the top of the page*/
+.bigName {
+  margin-bottom: .1cm;
+  margin-left 2cm;
+  text-indent: 20px;
+}
+
+/* left-align a photo*/
+img.align-left {
+  float: left;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+/*set up size for a medium photo*/
+img.medium{
+  height:350px;
+  width:231px;
+}
+
+/* set the style for the descriptive text under the headings*/
+h1 + p {
+  font-size:  120%;
+  font-style: italic;
+  margin-left:  1.5cm;
+  margin-top: 0cm;
+}
+
+.services {
+  clear: both;
+  margin-bottom: .1cm;
+  margin-left 2cm;
+  margin-top: 90px; /* pixels just because I can */
+  text-indent: 20px;
+}
+
+.contactMe {
+  margin-bottom: .1cm;
+  margin-left 2cm;
+  text-indent: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #3399ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* have the text in unordered list items indented
+   if the unordered list is nested in an ordered list*/
+ol ul li {
+  text-indent: 20px;
+}
