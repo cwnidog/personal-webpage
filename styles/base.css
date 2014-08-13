@@ -1,0 +1,85 @@
+/* set the background image and default text color */
+body {
+  background-image: url("../sky.jpg");
+  color: #003300;
+  padding: 0px;
+}
+
+/* the heading at the top of the page*/
+.header__banner {
+  background-color: #99ccff;
+  text-indent: 20px;
+  margin-top: 0px;
+  padding: 2px;
+  width: 100%;
+}
+
+.header__h1 {
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+
+.header__h1 + p {
+  font-size:  1.2em;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.aside__img {
+  float: left;
+  height: 470px;
+  width: 22%;
+  box-shadow: 10px 10px 5px #545454;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.aside__img:after {
+  clear: both;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px; /* pixels just because I can */
+  text-indent: 20px;
+}
+
+.section__listingBlock {
+  margin-left: 5px;
+  padding-left: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #003366;
+}
+
+/* visited link */
+a:visited {
+    color: #ff0000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* have the text in unordered list items indented
+   if the unordered list is nested in an ordered list*/
+ol ul li {
+  text-indent: 20px;
+}
+
+.footer__contactBlock {
+  background-color: #808080;
+  height: 50px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 85px;
+  text-indent: 20px;
+  width: 100%;
+}
+
+.footer__contactBlock ul li {
+  display: inline-block;
+  margin-bottom: 0px;
+}
