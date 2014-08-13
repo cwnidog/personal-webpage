@@ -4,45 +4,55 @@
     <meta charset="utf-8">
     <meta name="description" content="Qualifications, sevices offered, and contact information for John Leonard, Software Engineer and Project Manager" />
     <title>John Leonard</title>
-    <link rel ="stylesheet" href="normalize.css" type="text/css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel ="stylesheet" href="styles/normalize.css" type="text/css">
+    <link rel ="stylesheet" href="styles/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="styles/base.css" type="text/css">
+    <link rel="stylesheet" href="styles/modules.css" type="text/css">
   </head>
   <body>
-    <div id="top">
-      <h1 class="bigName"> John Leonard</h1>
-      <p> Software Engineer and Project Manager </p>
-      <p><img src="CupAvatar.jpg" alt="My photo" class="align-left medium">
-      <h1>About me</h1>
-      <p>Been there, done that</p>
-      <ol>
-        <li>BS in Computer and Information System Science UMASS/Amherst</li>
-        <li>Holds Project Management Institute's PMP credential</li>
-        <li>Experienced in design and development of software for:</li>
+    <header role="banner" class="header__banner sixteen columns">
+        <h1 class="header__h1"> John Leonard</h1>
+        <p> Software Engineer and Project Manager </p>
+    </header>
+    <aside class="aside__img two columns">
+        <p><img src="CupAvatar.jpg" alt="My photo" class="aside__img--left"></p>
+    </aside>
+    <div class="container">
+      <section class="section__listingBlock columns nine">
+        <h1 class="header__h1">About me</h1>
+        <p>Been there, done that</p>
+        <ol>
+          <li>BS in Computer and Information System Science UMASS/Amherst</li>
+          <li>Holds Project Management Institute's PMP credential</li>
+          <li>Experienced in design and development of software for:</li>
+          <ul>
+            <li>Air Traffic Control Displays</li>
+            <li>Datacommunications network infrastructure equipment</li>
+            <li>Telecommunications network infrastructure equipment</li>
+            <li>Network Management clients and servers</li>
+          </ul>
+        </ol>
+      </section> <!-- about me-->
+      <section class="section__listingBlock columns nine">
+        <h1 class="header__h1">Services</h1>
+        <p>What I can do for you</p>
         <ul>
-          <li>Air Traffic Control Displays</li>
-          <li>Datacommunications network infrastructure equipment</li>
-          <li>Telecommunications network infrastructure equipment</li>
-          <li>Network Management clients and servers</li>
+          <li>Software design, implementation and testing in: C, C++, and Java</li>
+          <li>Web page design and development</li>
+          <li>System development project management</li>
         </ul>
-      </ol></p>
-    </div> <!-- top-->
-    <div id="offering">
-      <h1 class="services">Services</h1>
-      <p>What I can do for you</p>
-      <ul>
-        <li>Software design, implementation and testing in: C, C++, and Java</li>
-        <li>Web page design and development</li>
-        <li>System development project management</li>
-      </ul>
-    </div> <!-- offering -->
-    <div id="getMe">
-      <h1 class="contactMe">Contact me</h1>
-      <p>How to find me</p>
-      <ul>
-        <li>phone: (555) 123-4567</li>
-        <li>e-mail: info@hammersmithforge.com</li>
-        <li>original forge: <a href ="http://www.nps.gov/sair/index.htm"> Hammersmith Forge </a></li>
-      </ul>
-    </div> <!-- end getMe -->
+      </section>
+    </div>
+    <footer class="footer__contactBlock columns nine">
+      <section>
+        <h1 class="header__h1">Contact me</h1>
+        <p>How to find me:</p>
+        <ul>
+          <li>phone: (555) 123-4567</li>
+          <li>e-mail: info@hammersmithforge.com</li>
+          <li>original forge: <a href ="http://www.nps.gov/sair/index.htm"> Hammersmith Forge </a></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>

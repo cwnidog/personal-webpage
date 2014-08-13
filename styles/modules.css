@@ -1,0 +1,21 @@
+/* left-align a photo*/
+.aside__img--left {
+  height:350px;
+  width:231px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.aside__img--left:after {
+  content ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.section__h1--listingBlock {
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
